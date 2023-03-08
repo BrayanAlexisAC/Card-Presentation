@@ -1,0 +1,69 @@
+body{
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+.absolute{
+  position: absolute;
+}
+.card{
+  right: 5%;
+  top: 20%;
+  background-color: black;
+  border-radius: 10%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+.background-image{
+  width: 100%;
+  height: 43%;
+}
+.perfil-image{
+  top: 28%;
+  width: 21%;
+  height: 30%;
+  left: 3%;
+  border-radius: 10%;
+  border: 5px solid ;
+  border-image: linear-gradient(50deg,#05D7F9,#D2D5D5,#05D7F9) 20 / 20px;
+  -webkit-mask: linear-gradient(#fff 0 0) 50px;
+}
+.title{
+  font-family: 'Comic Sans MS';
+  /* background-color: #05D7F9; */
+  width: 80%;
+  color: white;
+  top: 43%;
+  left: 32%;
+}
+.content{
+  font-family: 'Comic Sans MS';
+  width: 80%;
+  color: white;
+  top: 65%;
+  left: 10%;
+}
+.title hr {
+  position: relative;
+  right: 14%;
+  width: 71%;
+}
+.content hr{
+  width: 100%;
+}
+.technologies-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.img-icon{
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  /* background-color: white; */
+}
+h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
